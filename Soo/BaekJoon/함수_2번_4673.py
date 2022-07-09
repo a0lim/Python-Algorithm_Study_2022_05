@@ -38,3 +38,5 @@ for i in range(1,10001):
 
 for i in range(len(no_maker)):
     print(no_maker[i])
+
+# 생성자를 소거하는 방법이라서 더 직관적으로 코드 해석이 가능한 것 같아요. 깔끔한 코드라 좋았습니다! (최수빈)
