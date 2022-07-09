@@ -18,3 +18,6 @@ num_of_num=int(input())
 num=input()
 
 print(solve(num_of_num, num))
+
+
+#리스트 컴프리헨션 사용하신게 좋은 방법 같아요!! ()
