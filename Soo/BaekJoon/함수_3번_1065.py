@@ -24,3 +24,5 @@ def save_num_of_Han(N):
 
 N=int(input())
 print(save_num_of_Han(N))
+
+# 저는 100보다 작을 때도 하나하나 세는 방법으로 했는데 그것보다는 입력받은 수를 한수의 개수로 두는 수연님의 방법이 더 좋은 것 같네요! (최수빈)
