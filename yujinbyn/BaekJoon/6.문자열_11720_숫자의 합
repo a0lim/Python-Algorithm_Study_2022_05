@@ -6,3 +6,5 @@ for i in range(n):
     sum += int(str(m)[i])
 
 print(sum)
+
+# 저는 리스트로 두고 풀었는데 str로 푸는 방법도 간단하고 좋은 것 같네요! (최수빈)
