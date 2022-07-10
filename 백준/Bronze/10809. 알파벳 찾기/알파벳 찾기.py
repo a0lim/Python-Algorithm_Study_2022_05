@@ -1,0 +1,12 @@
+n = input()
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+for i in alphabet:
+    for j in range(len(n)):
+        x = -1
+        if n[j] == i:
+            x = j
+            break
+         
+    print(x, end=' ')
+    
