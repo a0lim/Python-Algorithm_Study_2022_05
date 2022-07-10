@@ -1,0 +1,15 @@
+x, y = input().split()
+
+x_reverse = ''
+y_reverse = ''
+
+for i in range(len(x)):
+    x_reverse += x[-(i+1)]
+
+for i in range(len(y)):
+    y_reverse += y[-(i+1)]
+
+x_reverse = int(x_reverse)
+y_reverse = int(y_reverse)
+
+print(max(x_reverse, y_reverse))
